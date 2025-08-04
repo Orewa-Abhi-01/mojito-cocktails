@@ -155,7 +155,7 @@ h1 {
         @apply w-full md:h-[80%] h-1/2 absolute bottom-10 left-0 md:object-contain object-bottom object-cover ;
     }
 
-    #mocktails {
+    #cocktails {
         @apply relative min-h-dvh w-full overflow-hidden;
 
         #c-left-leaf {
@@ -167,14 +167,14 @@ h1 {
         }
 
         .list {
-            @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
+            @apply mx-auto container  relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
 
             .popular {
-                @apply space-y-8 w-full md:w-fit;
+                @apply space-y-8  md:mx-20  w-full md:w-fit;
             }
 
             .loved {
-                @apply space-y-8 w-full md:w-fit pb-20 md:pb-0;
+                @apply space-y-8 md:mx-20 w-full md:w-fit pb-20 md:pb-0;
             }
 
             h2 {

@@ -105,6 +105,8 @@ const Hero = () => {
                        muted={true}
                        playsInline={true}
                        preload="auto"
+                       autoPlay={true}
+                       loop={true}
                 />
             </div>
         </>
